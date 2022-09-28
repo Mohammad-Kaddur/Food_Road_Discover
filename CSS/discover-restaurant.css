@@ -1,0 +1,266 @@
+/* Start Discover Restaurant Section */
+
+.main-discover-restaurant {
+    margin: auto;
+    padding: 50px 0px;
+    height: calc(100vh - 77.25px);
+}
+
+.main-discover-restaurant .container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.main-discover-restaurant .container .discover-left-section {
+    position: relative;
+}
+
+.main-discover-restaurant .container .discover-left-section h1 {
+    color: var(--main-text-colot);
+    font-size: 5.5rem;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.main-discover-restaurant .container .discover-left-section p {
+    color: var(--text-color);
+    font-size: var(--font-size-paragragh);
+    line-height: 2;
+}
+
+.main-discover-restaurant .container .discover-left-section img {
+    width: 20%;
+    position: absolute;
+    left: 50%;
+    bottom: -50%;
+}
+
+.main-discover-restaurant .container .discover-right-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-discover-restaurant .container .discover-right-section img {
+    border-radius: 50%;
+    width: 90%;
+}
+
+/* End Discover Restaurant Section */
+
+/* Start Find Something Section */
+
+.find-something {
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.find-something .search-restaurant {
+    margin: 30px auto 50px;
+    width: 60%;
+    padding: 10px 15px;
+    border-radius: 50px;
+    display: flex;
+    border: 1px solid #aaa;
+}
+
+.find-something .search-restaurant>input {
+    width: 100%;
+    font-size: 1.8rem;
+    border: none;
+    outline: none;
+    padding: 0px 20px;
+}
+
+.find-something .search-restaurant>i {
+    padding: 10px;
+    font-size: 2.5rem;
+    color: var(--price-background-color);
+    border-radius: 50%;
+    background-color: var(--link-colors);
+    cursor: pointer;
+}
+
+.find-something .container .filter {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+.find-something .container .filter h2 {
+    font-size: 3rem;
+    font-weight: 800;
+
+}
+
+.find-something .container .filter .filter-button {
+    padding: 12px 20px;
+    border-radius: 50px;
+    background-color: #deede0;
+    cursor: pointer;
+}
+
+.find-something .container .filter .filter-button span {
+    color: var(--link-colors);
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+.find-something .container .filter .filter-button i {
+    font-size: 2rem;
+    color: var(--link-colors);
+}
+
+.find-something .container .boxs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.find-something .container .boxs .box {
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.find-something .container .boxs .box .place-name {
+    position: absolute;
+    left: 20px;
+    bottom: 230px;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    font-weight: 700;
+    background-color: #eee;
+}
+
+.find-something .container .boxs .box>img {
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.find-something .container .boxs .box .description {
+    padding: 20px;
+}
+
+.find-something .container .boxs .box .description h4 {
+    font-size: 2rem;
+    font-weight: 800;
+    /* margin-bottom: 20px; */
+}
+
+.find-something .container .boxs .box .description p {
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: var(--text-color);
+    font-weight: 700;
+    padding: 20px 0px;
+}
+
+.find-something .container .boxs .box .description .info-decsr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.find-something .container .boxs .box .description .info-decsr .gradient-color {
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.find-something .container .boxs .box .description .info-decsr .stars i {
+    color: var(--second-color);
+    font-size: 1.5rem;
+}
+
+.find-something .container .boxs .box .description .info-decsr .stars span {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* Start Find Something  Section*/
+
+/* Start App Download */
+
+.app-download {
+    padding: 50px 0;
+    margin: auto;
+}
+
+.app-download .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-download .container .app-download-left {
+    flex: 1.5;
+}
+
+.app-download .container .app-download-left h2 {
+    font-size: var(--font-size-h2);
+    color: var(--main-text-colot);
+    font-weight: 800;
+    line-height: 1.7;
+}
+
+.app-download .container .app-download-left p {
+    font-size: var(--font-size-paragragh);
+    font-weight: 700;
+    color: var(--text-color);
+    line-height: 1.7;
+    padding: 20px 20px 20px 0px;
+}
+
+.app-download .container .app-download-left h3 {
+    color: var(--main-text-colot);
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.app-download .container .app-download-left .box {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.app-download .container .app-download-left .box>img {
+    width: 30%;
+    cursor: pointer;
+}
+
+
+.app-download .container .app-download-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.app-download .container .app-download-right img {
+    width: 50%;
+}
+
+@media(max-width:991px) {
+    .app-download .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .app-download .container .app-download-right img {
+        display: none;
+    }
+
+    .app-download .container .app-download-left .box {
+        display: block;
+    }
+
+    .app-download .container .app-download-left .box>img {
+        margin: auto;
+    }
+}
+
+/* End App Download */
